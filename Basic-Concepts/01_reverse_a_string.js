@@ -17,16 +17,20 @@ let reverseString = (str) => {
 
 console.log(reverseString("JavaScript"));
 
-// let reverseString = (str) => {
-//   let reversedString = "";
-//   //   str = str.slice(-1).toUpperCase();
-//   for (let i = str.length - 1; i >= 0; i--) {
-//     reversedString += str[i];
-//     reversedString =
-//       reversedString.charAt(0).toUpperCase() +
-//       reversedString.slice(1).toLowerCase();
-//   }
-//   return reversedString;
-// };
+/*
 
-// console.log(reverseString("JavaScript"));
+let reverseString = (str) => {
+  let reversedString = "";
+  //   str = str.slice(-1).toUpperCase();
+  for (let i = str.length - 1; i >= 0; i--) {
+    reversedString += str[i];
+    reversedString =
+      reversedString.charAt(0).toUpperCase() +
+      reversedString.slice(1).toLowerCase();
+  }
+  return reversedString;
+};
+
+console.log(reverseString("JavaScript"));
+
+*/
